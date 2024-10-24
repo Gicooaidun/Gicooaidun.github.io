@@ -1,7 +1,10 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "ICESat-2 spaceborne LiDAR as complementary data source for biomass mapping"
+excerpt: "<b>Keywords: remote sensing, biomass mapping, computer vision</b><br/><br/><a href='/files/Poster_biomass.pdf'>[Poster]</a> <a href='/files/Report_biomass.pdf'>[Report]</a> <a href='/files/Presentation_biomass.pdf'>[Slides]</a> <a href='https://github.com/Gicooaidun/GEDI_biomass_estimation/tree/master'>[Code]</a><br/><br/>This project explores the use of ICESat-2 spaceborne LiDAR data as a complementary data source for biomass mapping, particularly in sub-arctic regions. Accurate biomass mapping is essential for understanding carbon sinks and mitigating global warming, but current systems face limitations in data coverage, especially in regions outside the International Space Station’s orbit, where other sources like GEDI cannot provide comprehensive data. The project integrates <b>ICESat-2 data with existing GEDI and Sentinel-2 datasets</b> using advanced machine learning methods, including <b>fully convolutional networks (FCNs)</b>, to estimate <b>Above Ground Biomass Density (AGBD)</b> on a global scale. The aim is to enhance the spatial coverage and accuracy of biomass estimates, which play a crucial role in monitoring forest ecosystems and their role in the global carbon cycle. <br/><br/><img src='/images/biomass.jpg' width='500' height='300'>"
 collection: portfolio
+
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This project explores the use of ICESat-2 spaceborne LiDAR data as a complementary data source for biomass mapping, particularly in sub-arctic regions. Accurate biomass mapping is essential for understanding carbon sinks and mitigating global warming, but current systems face limitations in data coverage, especially in regions outside the International Space Station’s orbit, where other sources like GEDI cannot provide comprehensive data. The project integrates ICESat-2 data with existing GEDI and Sentinel-2 datasets using advanced machine learning methods, including fully convolutional networks (FCNs), to estimate Above Ground Biomass Density (AGBD) on a global scale. The aim is to enhance the spatial coverage and accuracy of biomass estimates, which play a crucial role in monitoring forest ecosystems and their role in the global carbon cycle. 
+<br>
+[Poster](/files/Poster_biomass.pdf) | [Slides](/files/Presentation_biomass.pdf) |  [Report](/files/Report_biomass.pdf) | [Code](https://github.com/Gicooaidun/GEDI_biomass_estimation/tree/master)

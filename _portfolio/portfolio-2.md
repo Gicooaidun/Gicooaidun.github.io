@@ -1,0 +1,10 @@
+---
+title: "Building Blocks Vectorization of Atlas Municipal of Paris"
+excerpt: "<b>Keywords: image classification, building blocks detection</b><br/><br/><a href='/files/Report_vectorization.pdf'>[Report]</a> <a href='/files/Presentation_vectorization.pdf'>[Slides]</a> <a href='https://github.com/Gicooaidun/Building_Blocks_Detection'>[Code]</a><br/><br/>In this project, we automated the vectorization of historical Paris maps from the Atlas Municipal series (1866–1937) using deep neural networks to digitize urban evolution. The focus was on <b>identifying and vectorizing building blocks</b>, defined as areas enclosed by streets or other boundaries. To achieve this, we implemented and evaluated three semantic segmentation models <b>(U-Net, ResUnet, and SwinUnet)</b>, with SwinUnet demonstrating the best accuracy and generalization. The project involved developing a comprehensive <b>data processing pipeline for model training, testing, and vectorization</b>. This included image augmentation, mask generation, and post-processing techniques such as the Douglas-Peucker algorithm for polygon generalization. The combination of these methods enabled an accurate and efficient approach to digitizing historical urban maps, contributing to a better understanding of Paris's urban development over time. <br/><br/><img src='/images/vectorization.png' width='500' height='300'>"
+collection: portfolio
+
+---
+
+In this project, we automate the vectorization of historical Paris maps from the Atlas Municipal series (1866-1937) using deep neural networks. We focused on identifying and vectorizing building blocks, which are areas enclosed by streets or other boundaries. We implemented three models (U-Net, ResUnet, and SwinUnet) and evaluated their performance. SwinUnet showed the best accuracy and generalization. 
+<br>
+[Report](/files/Report_vectorization.pdf) | [Slides](/files/Presentation_vectorization.pdf) | [Code](https://github.com/Gicooaidun/Building_Blocks_Detection)

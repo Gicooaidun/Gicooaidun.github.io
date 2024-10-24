@@ -1,0 +1,10 @@
+---
+title: "Geospatial Data Acquisition and Processing with a Total Station"
+excerpt: "<b>Keywords: total station, atmospheric effects on geodetic measurements, data conversion and analysis</b><br/><br/><a href='https://github.com/Gicooaidun/Geospatial_Data_Acquisition_and_Processing_with_a_Total_Station'>[Code & Manual & Report]</a><br/><br/>This project explores various methods of geospatial data acquisition and processing using a Leica TS60 total station. It involves three key components: 1) manual operation of the total station for repeated point measurements, supported by a Python script for data conversion and processing, following ISO 17123-3 standards for horizontal directions; 2) automating the total station's operations via GeoCOM, allowing users to configure settings from a computer and automatically measure angles and distances; 3) assessing the impact of meteorological factors on vertical coordinates, analyzing slope distance measurements and applying atmospheric corrections to improve accuracy, while evaluating different meteorological sensors for geodetic practice. <br/><br/><img src='/images/geoacq.jpg' width='500' height='300'>"
+collection: portfolio
+
+---
+
+This project explores various methods of geospatial data acquisition and processing using a Leica TS60 total station. It covers manual measurements, automated data collection via GeoCOM, and the impact of meteorological factors on vertical coordinates. The manual operation focuses on executing repeated point measurements and processing them according to the ISO 17123-3 standard. The automated measurement system allows for remote configuration and autonomous data acquisition, streamlining the process while maintaining compliance with the same ISO standard. Additionally, the project investigates how atmospheric conditions affect distance measurements, applying various correction models to improve accuracy. 
+<br>
+[Report](/files/Report_IWV.pdf) | [Slides](/files/Presentation_IWV.pdf) | [Code](https://github.com/Gicooaidun/Geospatial_Data_Acquisition_and_Processing_with_a_Total_Station)
