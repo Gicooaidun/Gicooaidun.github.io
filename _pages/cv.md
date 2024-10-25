@@ -10,6 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
-<a href='/files/Presentation_IWV.pdf'>Download my CV here</a>
+<a href='/files/Curriculum_Vitae.pdf'>Download my CV here</a>
 
 
