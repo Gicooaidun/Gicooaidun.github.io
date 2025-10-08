@@ -9,18 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Sep 2025-Present: Machine Learning Intern - Weather Forecasting | Beijing Presky Technology Co., Ltd.
+  * Developed a precipitation forecasting model integrating ERA5 reanalysis data (69 meteorological variables: 5
+upper-air variables across 13 pressure levels + 4 surface variables) and ADTD lightning observations over China
+(0.125° resolution). Implemented three deep learning architectures (UNeXt, ConvNeXt V2, SwinUNet) with
+dual-head outputs (numerical regression + 21-class precipitation classification). Designed specialized loss functions
+(WeightedPrecip, SSIM, Seesaw Loss) to handle sample imbalance and extreme precipitation events
+  * Implemented and tested deep learning architectures (e.g., CNN, Transformer-based models) for short-term
+precipitation and temperature forecasting.
 
 * Fall 2015: Research Assistant
   * GitHub University
@@ -32,33 +30,3 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
